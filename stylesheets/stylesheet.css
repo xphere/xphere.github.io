@@ -362,6 +362,19 @@ dl dd {
     content: "#";
 }
 
+a.twitter, a.github {
+    padding-left: 18px;
+    background: transparent url("../images/social.png") 0 0 no-repeat;
+}
+
+a.github {
+    background-position: 0 0;
+}
+
+a.twitter {
+    background-position: 0 -16px;
+}
+
 footer {
   background: transparent url('../images/hr.png') 0 0 no-repeat;
   margin-top: 40px;
