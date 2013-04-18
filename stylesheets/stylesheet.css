@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+s/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -221,6 +221,9 @@ form {
   
 }
 
+strong {
+    font-weight: bolder;
+}
 
 /* GENERAL ELEMENT TYPE STYLES */
 
@@ -338,6 +341,25 @@ ol li {
 dl dd {
   font-style: italic;
   font-weight: 100;
+}
+
+.repository {
+    list-style: none;
+}
+
+.repository .title {
+    font-weight: bold;
+}
+
+.repository .tag {
+    font-size: .8em;
+    color: #999;
+    margin: 0;
+    padding: 0;
+}
+
+.repository .tag:before {
+    content: "#";
 }
 
 footer {
